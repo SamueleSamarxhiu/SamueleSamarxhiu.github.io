@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #111112;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/* NAVBAR */
+
+nav {
+  background-color: #111112;
+  position: sticky; 
+  top: 0;
+  text-align: center;
+  font-weight: 500;
+  z-index: 1000;
+  padding: 25px 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 3px;
+  margin: 0 13px;
+  animation: appearText 3.2s;
+}
+
+
+
+/*  ABOUT SECTION */
+
+.about img {
+  width: 85%;
+  border-radius: 5px;
+  mask-image: linear-gradient(to bottom, #111112, transparent);
+  animation: fadeIn 5s;
+  position: relative;
+  top: 40px;
+}
+
+.about {
+  text-align: center;
+  margin-top: 110px;
+  position: relative;
+}
+
+.name {
+  font-size: 55px;
+  text-align: left;
+  position: absolute;
+  left: 30px;
+  bottom: 175px;
+  font-weight: bold;
+  animation: appearText 1.2s;
+}
+.name::after {
+  content: '';
+  visibility: hidden;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  animation: border 1.2s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+.about p {
+  font-size: 12px;
+  text-align: left;
+  animation: appearText 3.2s;
+  left: 30px;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+
+/* WORK SECTION */
+
+.work {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.work h1 {
+  background-color: #111112;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 74px;
+}
+
+.work img {
+  display: inline-block;
+  width: 85%;
+  margin: 20px auto 100px;
+  border-radius: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 180px;
+}
+
+
+/* ANIMATIONS */
+
+@keyframes border {
+from {
+  visibility: hidden;
+  width: 0px;
+}
+to {
+  visibility: visible;
+  width: 262px;
+}
+}
+
+@keyframes fadeIn {
+from {
+  opacity: 0;
+}
+to {
+  opacity: 1;
+}
+}
+
+@keyframes appearText {
+
+0% {
+  color: transparent;
+  transform: translateY(50%);
+}
+
+25% {
+  color: transparent;
+  transform: translateY(35%);
+}
+
+50% {
+  color: transparent;
+  transform: translateY(25%);
+}
+
+70% {
+  color: white;
+  transform: translateY(0%);
+}
+
+}
+
+
+

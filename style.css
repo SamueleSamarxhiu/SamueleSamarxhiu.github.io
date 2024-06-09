@@ -41,13 +41,11 @@ nav a {
   border-radius: 5px;
   mask-image: linear-gradient(to bottom, #111112, transparent);
   animation: fadeIn 5s;
-  position: relative;
-  top: 40px;
 }
 
 .about {
   text-align: center;
-  margin-top: 110px;
+  margin-top: 10px;
   position: relative;
 }
 

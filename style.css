@@ -74,9 +74,10 @@ nav a {
   font-size: 12px;
   text-align: left;
   animation: appearText 3.2s;
-  left: 30px;
   margin-left: 30px;
   font-weight: 500;
+  position: relative;
+  top: 15px;
 }
 
 

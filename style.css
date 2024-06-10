@@ -39,6 +39,7 @@ nav a {
 .about img {
   width: 85%;
   border-radius: 5px;
+  -webkit-mask-image: linear-gradient(to bottom, #111112, transparent);
   mask-image: linear-gradient(to bottom, #111112, transparent);
   animation: fadeIn 5s;
 }

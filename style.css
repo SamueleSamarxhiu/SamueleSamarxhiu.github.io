@@ -46,8 +46,9 @@ nav a {
 
 .about {
   text-align: center;
-  margin-top: 10px;
   position: relative;
+  border: 2px solid red;
+  margin-top: 45px;
 }
 
 .name {
@@ -55,7 +56,7 @@ nav a {
   text-align: left;
   position: absolute;
   left: 30px;
-  bottom: 200px;
+  bottom: 175px;
   font-weight: bold;
   animation: appearText 1.2s;
 }
@@ -77,8 +78,6 @@ nav a {
   animation: appearText 3.2s;
   margin-left: 30px;
   font-weight: 500;
-  position: relative;
-  top: 15px;
 }
 
 
@@ -157,3 +156,15 @@ to {
 
 
 
+
+@media screen and (max-width: 390px) {
+  .name {
+    bottom: 200px;
+  }
+}
+
+@media screend and (max-width: 428px) {
+  .name {
+    bottom: 165px;
+  }
+}

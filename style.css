@@ -42,6 +42,9 @@ nav a {
 /*  ABOUT SECTION */
 
 .about img {
+  z-index: 999;
+  position: sticky;
+  top: 177.18px;
   width: 300px;
   border-radius: 5px;
   -webkit-mask-image: linear-gradient(to bottom, #111112, transparent);
@@ -52,7 +55,7 @@ nav a {
 .about {
   text-align: center;
   position: relative;
-  margin-top: 45px;
+  margin: 45px 0 100px;
 }
 
 .name {
@@ -66,6 +69,7 @@ nav a {
   font-weight: bold;
   animation: appearText 1.2s;
 }
+
 .name::after {
   content: '';
   visibility: hidden;
@@ -78,6 +82,7 @@ nav a {
   animation-delay: 1.2s;
   animation-fill-mode: forwards;
 }
+
 .about p {
   font-size: 12px;
   text-align: left;
@@ -86,11 +91,31 @@ nav a {
   font-weight: 500;
 }
 
+.about span {
+  z-index: 997; 
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  margin: 500px 0;
+  font-weight: 600;
+  position: relative;
+  z-index: 
+}
 
+#fixed {
+  font-size: 40px;
+  z-index: 998;
+  position: sticky;
+  top: 60px;
+  background: linear-gradient(to bottom, #111112, transparent);
+}
+
+.skills {
+  font-size: 45px;
+}
 /* WORK SECTION */
 
 .work {
-  margin-top: 100px;
   text-align: center;
 }
 
@@ -161,6 +186,8 @@ to {
 }
 
 
+
+
 @media (max-width: 385px) {
   .work h1 {
     font-size: 25px;
@@ -170,3 +197,5 @@ to {
     width: 300px;
   }
 }
+
+

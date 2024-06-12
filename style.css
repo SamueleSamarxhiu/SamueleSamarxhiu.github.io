@@ -39,7 +39,21 @@ nav a {
 }
 
 
-/*  ABOUT SECTION */
+
+
+.fader {
+  display: flex;
+  align-content: stretch;
+  height: 55px;
+  margin-top: 0;
+  position: sticky;
+  top: 45px;
+  /*top: 132.18px; */
+  z-index: 998;
+  background: linear-gradient(to bottom, #111112 45%, transparent);
+}
+
+/* ABOUT SECTION */
 
 .about img {
   z-index: 999;
@@ -52,11 +66,13 @@ nav a {
   animation: fadeIn 5s;
 }
 
+
 .about {
   text-align: center;
   position: relative;
-  margin: 45px 0 80px;
+  margin: 0 0 80px;
 }
+
 
 .name {
   font-size: 55px;
@@ -95,7 +111,6 @@ nav a {
   flex-direction: column-reverse;
 }
 .about span {
-  z-index: 997; 
   padding: 30px 0;
   margin: 500px 0;
   font-weight: 600;
@@ -104,10 +119,9 @@ nav a {
 
 #fixed {
   font-size: 40px;
-  z-index: 998;
+  z-index: 997;
   position: sticky;
   top: 60px;
-  background: linear-gradient(to bottom, #111112, transparent);
 }
 
 .skills {
@@ -196,6 +210,13 @@ to {
   .work img {
     width: 300px;
   }
+
+  .about span {
+    font-size: 38px;
+  }
+
+  #fixed {
+    font-size: 36px;
+  }
+
 }
-
-

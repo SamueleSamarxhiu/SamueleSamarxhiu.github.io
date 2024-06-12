@@ -140,7 +140,7 @@ to {
 @keyframes appearText {
 
 0% {
-  color: 3transparent;
+  color: transparent;
   transform: translateY(50%);
 }
 

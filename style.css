@@ -8,8 +8,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
 .banner img {
-  width: 100%;
+  width: 350px;
 }
 
 /* NAVBAR */
@@ -17,11 +22,12 @@ body {
 nav {
   background-color: #111112;
   position: sticky; 
+  display: flex;
+  justify-content: space-around;
   top: 0;
-  text-align: center;
   font-weight: 500;
   z-index: 1000;
-  padding: 25px 0px;
+  padding: 20px 0;
 }
 
 nav a {
@@ -37,7 +43,7 @@ nav a {
 /*  ABOUT SECTION */
 
 .about img {
-  width: 85%;
+  width: 300px;
   border-radius: 5px;
   -webkit-mask-image: linear-gradient(to bottom, #111112, transparent);
   mask-image: linear-gradient(to bottom, #111112, transparent);
@@ -52,10 +58,12 @@ nav a {
 
 .name {
   font-size: 55px;
-  text-align: left;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  bottom: calc(100% - 305px);
   left: 30px;
-  bottom: 175px;
   font-weight: bold;
   animation: appearText 1.2s;
 }
@@ -96,7 +104,7 @@ nav a {
 
 .work img {
   display: inline-block;
-  width: 85%;
+  width: 300px;
   margin: 20px auto 100px;
   border-radius: 5px;
   position: -webkit-sticky;
@@ -132,7 +140,7 @@ to {
 @keyframes appearText {
 
 0% {
-  color: transparent;
+  color: 3transparent;
   transform: translateY(50%);
 }
 
@@ -155,15 +163,3 @@ to {
 
 
 
-
-@media screen and (max-width: 390px) {
-  .name {
-    bottom: 200px;
-  }
-}
-
-@media screend and (max-width: 428px) {
-  .name {
-    bottom: 165px;
-  }
-}

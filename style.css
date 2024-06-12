@@ -57,9 +57,9 @@ nav a {
 
 .about img {
   z-index: 999;
+  width: 350px; 
   position: sticky;
   top: 177.18px;
-  width: 300px;
   border-radius: 5px;
   -webkit-mask-image: linear-gradient(to bottom, #111112, transparent);
   mask-image: linear-gradient(to bottom, #111112, transparent);
@@ -112,7 +112,7 @@ nav a {
 }
 .about span {
   padding: 30px 0;
-  margin: 500px 0;
+  margin: 200px 0;
   font-weight: 600;
   font-size: 45px;
 }
@@ -207,7 +207,7 @@ to {
     font-size: 25px;
   }
 
-  .work img {
+  .about img, .work img {
     width: 300px;
   }
 

@@ -34,10 +34,9 @@ nav a {
   text-decoration: none;
   color: white;
   letter-spacing: 3px;
-  margin: 0 13px;
   animation: appearText 3.2s;
+  margin: 0 13px;
 }
-
 
 
 /*  ABOUT SECTION */
@@ -104,7 +103,7 @@ nav a {
 
 .work img {
   display: inline-block;
-  width: 300px;
+  width: 350px;
   margin: 20px auto 100px;
   border-radius: 5px;
   position: -webkit-sticky;
@@ -165,5 +164,9 @@ to {
 @media (max-width: 385px) {
   .work h1 {
     font-size: 25px;
+  }
+
+  .work img {
+    width: 300px;
   }
 }

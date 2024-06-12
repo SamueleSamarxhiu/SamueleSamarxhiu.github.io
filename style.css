@@ -162,4 +162,8 @@ to {
 }
 
 
-
+@media (max-width: 385px) {
+  .work h1 {
+    font-size: 25px;
+  }
+}

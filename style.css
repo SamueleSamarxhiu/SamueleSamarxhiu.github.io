@@ -55,7 +55,7 @@ nav a {
 .about {
   text-align: center;
   position: relative;
-  margin: 45px 0 100px;
+  margin: 45px 0 80px;
 }
 
 .name {
@@ -90,16 +90,16 @@ nav a {
   margin-left: 30px;
   font-weight: 500;
 }
-
+.about .flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
 .about span {
   z-index: 997; 
-  display: flex;
-  flex-direction: column;
   padding: 30px 0;
   margin: 500px 0;
   font-weight: 600;
-  position: relative;
-  z-index: 
+  font-size: 45px;
 }
 
 #fixed {
